@@ -39,7 +39,7 @@ var options = {
   bodyA : ball,
   bodyB : holder,
   stiffness: 0.004,
-  length : 100
+  length : 90
 }
 var string = Constraint.create(options);
 World.add(world,string);
